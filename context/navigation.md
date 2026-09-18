@@ -1,0 +1,42 @@
+<!-- Context: core/navigation | Priority: critical | Version: 1.0 | Updated: 2026-09-11 -->
+
+# Context Navigation
+
+**New here?** → `openagents-repo/quick-start.md`
+
+---
+
+## Structure
+
+```
+<CONFIG_ROOT>/.config/opencode/context/
+├── core/                   # Universal standards & workflows
+├── openagents-repo/        # OpenAgents Control repository work
+├── development/            # Software development (all stacks)
+├── ui/                     # Visual design & UX
+```
+
+---
+
+## Quick Routes
+
+| Task | Path |
+|------|------|
+| **Write code** | `core/standards/code-quality.md` |
+| **Write tests** | `core/standards/test-coverage.md` |
+| **Write docs** | `core/standards/documentation.md` |
+| **Review code** | `core/workflows/code-review.md` |
+| **Delegate task** | `core/workflows/task-delegation-basics.md` |
+| **Add agent** | `openagents-repo/guides/adding-agent-basics.md` |
+| **UI development** | `development/ui-navigation.md` |
+| **API development** | `development/backend-navigation.md` |
+
+---
+
+## By Category
+
+**core/** - Standards, workflows, patterns → `core/navigation.md`
+**openagents-repo/** - Repository-specific → `openagents-repo/navigation.md`
+**development/** - All development → `development/navigation.md`
+**ui/** - Design & UX → `ui/navigation.md`
+

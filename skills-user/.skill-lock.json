@@ -1,0 +1,956 @@
+{
+  "version": 3,
+  "skills": {
+    "systematic-debugging": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/systematic-debugging/SKILL.md",
+      "skillFolderHash": "ab83fc82f82582e047d96fc516bac9bc03095ee0",
+      "installedAt": "2026-09-09T14:04:13.144Z",
+      "updatedAt": "2026-09-09T14:30:15.184Z"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/skill-creator/SKILL.md",
+      "skillFolderHash": "3cf9a8db32597ba3e24b584a3d696f4e11c7d7b6",
+      "pluginName": "example-skills",
+      "installedAt": "2026-09-09T14:04:15.614Z",
+      "updatedAt": "2026-09-09T14:04:15.614Z"
+    },
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "skillFolderHash": "82def67855a0d2aad7794207951820fa5422fdb0",
+      "installedAt": "2026-09-09T14:30:13.974Z",
+      "updatedAt": "2026-09-09T14:30:13.974Z"
+    },
+    "ralph-wiggum": {
+      "source": "fstandhartinger/ralph-wiggum",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fstandhartinger/ralph-wiggum.git",
+      "skillPath": "skills/ralph-wiggum/SKILL.md",
+      "skillFolderHash": "38a93bc836fe403141c0e6298bd26c8b97044594",
+      "installedAt": "2026-09-09T14:30:14.735Z",
+      "updatedAt": "2026-09-09T14:30:14.735Z"
+    },
+    "brainstorming": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/brainstorming/SKILL.md",
+      "skillFolderHash": "881fc4ac82a25e61a58d332426b5673efe060da0",
+      "installedAt": "2026-09-09T14:30:15.151Z",
+      "updatedAt": "2026-09-09T14:30:15.151Z"
+    },
+    "dispatching-parallel-agents": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/dispatching-parallel-agents/SKILL.md",
+      "skillFolderHash": "15697cb0726c26a66bff737494e8b5266667ba0c",
+      "installedAt": "2026-09-09T14:30:15.154Z",
+      "updatedAt": "2026-09-09T14:30:15.154Z"
+    },
+    "executing-plans": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/executing-plans/SKILL.md",
+      "skillFolderHash": "1484ffb29998ba1db2a7b6bf0e641081eb8612e9",
+      "installedAt": "2026-09-09T14:30:15.173Z",
+      "updatedAt": "2026-09-09T14:30:15.173Z"
+    },
+    "finishing-a-development-branch": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/finishing-a-development-branch/SKILL.md",
+      "skillFolderHash": "3b1205aa5038c71946077dd63b9e71b447729e70",
+      "installedAt": "2026-09-09T14:30:15.176Z",
+      "updatedAt": "2026-09-09T14:30:15.176Z"
+    },
+    "receiving-code-review": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/receiving-code-review/SKILL.md",
+      "skillFolderHash": "b5e154fc3ec7a6a0b1e710eebacc2168620cc428",
+      "installedAt": "2026-09-09T14:30:15.178Z",
+      "updatedAt": "2026-09-09T14:30:15.178Z"
+    },
+    "requesting-code-review": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/requesting-code-review/SKILL.md",
+      "skillFolderHash": "2ef6b5734813e7504d9866a7ec1ae89b505bfe70",
+      "installedAt": "2026-09-09T14:30:15.180Z",
+      "updatedAt": "2026-09-09T14:30:15.180Z"
+    },
+    "subagent-driven-development": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/subagent-driven-development/SKILL.md",
+      "skillFolderHash": "8133f2b10d4e71e73d867f2e2e365e0778ff0e4e",
+      "installedAt": "2026-09-09T14:30:15.182Z",
+      "updatedAt": "2026-09-09T14:30:15.182Z"
+    },
+    "test-driven-development": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/test-driven-development/SKILL.md",
+      "skillFolderHash": "a82cf8b413600c6bd7c4b482272d7990e9588cf1",
+      "installedAt": "2026-09-09T14:30:15.186Z",
+      "updatedAt": "2026-09-09T14:30:15.186Z"
+    },
+    "using-git-worktrees": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/using-git-worktrees/SKILL.md",
+      "skillFolderHash": "d2b8357b922667a091bfe967840abf5ae84ce99c",
+      "installedAt": "2026-09-09T14:30:15.188Z",
+      "updatedAt": "2026-09-09T14:30:15.188Z"
+    },
+    "using-superpowers": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/using-superpowers/SKILL.md",
+      "skillFolderHash": "e8e3b9ddf73018fdc48d188b12ba654e7363de9f",
+      "installedAt": "2026-09-09T14:30:15.190Z",
+      "updatedAt": "2026-09-09T14:30:15.190Z"
+    },
+    "verification-before-completion": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/verification-before-completion/SKILL.md",
+      "skillFolderHash": "a4cb0b69aaefeab540947a7f1642bdaad810e37a",
+      "installedAt": "2026-09-09T14:30:15.192Z",
+      "updatedAt": "2026-09-09T14:30:15.192Z"
+    },
+    "writing-plans": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/writing-plans/SKILL.md",
+      "skillFolderHash": "e4d3c3faf3853a453016cece5de2ca0581807742",
+      "installedAt": "2026-09-09T14:30:15.194Z",
+      "updatedAt": "2026-09-09T14:30:15.194Z"
+    },
+    "writing-skills": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/writing-skills/SKILL.md",
+      "skillFolderHash": "1768f7552ec98fc6b06aeea747a0c4ef6bde0473",
+      "installedAt": "2026-09-09T14:30:15.196Z",
+      "updatedAt": "2026-09-09T14:30:15.196Z"
+    },
+    "ralph-tui-create-beads": {
+      "source": "subsy/ralph-tui",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/subsy/ralph-tui.git",
+      "skillPath": "skills/ralph-tui-create-beads/SKILL.md",
+      "skillFolderHash": "7a98b4e3f96f463dd70fd9f9a75ca9340dc55aad",
+      "installedAt": "2026-09-09T14:30:18.924Z",
+      "updatedAt": "2026-09-09T14:30:18.924Z"
+    },
+    "ralph-tui-create-beads-rust": {
+      "source": "subsy/ralph-tui",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/subsy/ralph-tui.git",
+      "skillPath": "skills/ralph-tui-create-beads-rust/SKILL.md",
+      "skillFolderHash": "779eaa0fb04f828b38d97938257ae70f70b74a0f",
+      "installedAt": "2026-09-09T14:30:18.926Z",
+      "updatedAt": "2026-09-09T14:30:18.926Z"
+    },
+    "ralph-tui-create-json": {
+      "source": "subsy/ralph-tui",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/subsy/ralph-tui.git",
+      "skillPath": "skills/ralph-tui-create-json/SKILL.md",
+      "skillFolderHash": "8773e8874e3eaa4d59e2cd871999d7d426fc2ec3",
+      "installedAt": "2026-09-09T14:30:18.946Z",
+      "updatedAt": "2026-09-09T14:30:18.946Z"
+    },
+    "ralph-tui-prd": {
+      "source": "subsy/ralph-tui",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/subsy/ralph-tui.git",
+      "skillPath": "skills/ralph-tui-prd/SKILL.md",
+      "skillFolderHash": "9443135cc27e2f1fb55cf1f6f4607180d1db5bd9",
+      "installedAt": "2026-09-09T14:30:18.947Z",
+      "updatedAt": "2026-09-09T14:30:18.947Z"
+    },
+    "testing-tui-runtime": {
+      "source": "subsy/ralph-tui",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/subsy/ralph-tui.git",
+      "skillPath": ".agents/skills/testing-tui-runtime/SKILL.md",
+      "skillFolderHash": "a2a96a7d1a0b22eab41b01df37bf1413076ee996",
+      "installedAt": "2026-09-09T14:30:18.949Z",
+      "updatedAt": "2026-09-09T14:30:18.949Z"
+    },
+    "playwright-cli": {
+      "source": "microsoft/playwright-cli",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/microsoft/playwright-cli.git",
+      "skillPath": "skills/playwright-cli/SKILL.md",
+      "skillFolderHash": "fe74b7fb02fe5d0697d1e1359cb44e1f48d1fc54",
+      "installedAt": "2026-09-09T14:30:48.295Z",
+      "updatedAt": "2026-09-09T14:30:48.295Z"
+    },
+    "dev": {
+      "source": "microsoft/playwright-cli",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/microsoft/playwright-cli.git",
+      "skillPath": ".claude/skills/dev/SKILL.md",
+      "skillFolderHash": "4762fd695bb0787df7af12ff94f18086a951f47c",
+      "installedAt": "2026-09-09T14:30:48.300Z",
+      "updatedAt": "2026-09-09T14:30:48.300Z"
+    },
+    "playwright-best-practices": {
+      "source": "currents-dev/playwright-best-practices-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/currents-dev/playwright-best-practices-skill.git",
+      "skillPath": "playwright-best-practices/SKILL.md",
+      "skillFolderHash": "b4620eb2cfc6b58173cda800b7c7578190dfd632",
+      "installedAt": "2026-09-09T14:30:48.430Z",
+      "updatedAt": "2026-09-09T14:30:48.430Z"
+    },
+    "postgres": {
+      "source": "planetscale/database-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/planetscale/database-skills.git",
+      "skillPath": "skills/postgres/SKILL.md",
+      "skillFolderHash": "9589f4be80426a42d37030e186dceed734043eaa",
+      "installedAt": "2026-09-09T14:30:49.301Z",
+      "updatedAt": "2026-09-09T14:30:49.301Z"
+    },
+    "ralph-loop-workflow": {
+      "source": "andrelandgraf/fullstackrecipes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/andrelandgraf/fullstackrecipes.git",
+      "skillPath": "skills/ralph-loop-workflow/SKILL.md",
+      "skillFolderHash": "c106e8840a34491e49a66435b0fa673fcffaff8e",
+      "installedAt": "2026-09-09T14:30:50.314Z",
+      "updatedAt": "2026-09-09T14:30:50.314Z"
+    },
+    "webapp-testing": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/webapp-testing/SKILL.md",
+      "skillFolderHash": "5ffb7dc66b9fd4c25c3e400a4c00da99a349b714",
+      "pluginName": "example-skills",
+      "installedAt": "2026-09-09T14:30:50.382Z",
+      "updatedAt": "2026-09-10T10:04:22.161Z"
+    },
+    "angular-architect": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/angular-architect/SKILL.md",
+      "skillFolderHash": "99e6ad413c57d78e668d02295306a4553222b158",
+      "installedAt": "2026-09-10T09:57:52.112Z",
+      "updatedAt": "2026-09-10T09:57:52.112Z"
+    },
+    "api-designer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/api-designer/SKILL.md",
+      "skillFolderHash": "bbb2fd84c10a46fb3d17121ffbc86aa1bba5ca65",
+      "installedAt": "2026-09-10T09:57:52.130Z",
+      "updatedAt": "2026-09-10T09:57:52.130Z"
+    },
+    "architecture-designer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/architecture-designer/SKILL.md",
+      "skillFolderHash": "44b08027e2c06856066b6e27f1584acb7328e164",
+      "installedAt": "2026-09-10T09:57:52.133Z",
+      "updatedAt": "2026-09-10T09:57:52.133Z"
+    },
+    "atlassian-mcp": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/atlassian-mcp/SKILL.md",
+      "skillFolderHash": "7dc373b304df7ad1382d7bb75e9cdbdf4cb6495d",
+      "installedAt": "2026-09-10T09:57:52.140Z",
+      "updatedAt": "2026-09-10T09:57:52.140Z"
+    },
+    "chaos-engineer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/chaos-engineer/SKILL.md",
+      "skillFolderHash": "ccfcb94da8f95530010302c34a3f0f19571805dc",
+      "installedAt": "2026-09-10T09:57:52.145Z",
+      "updatedAt": "2026-09-10T09:57:52.145Z"
+    },
+    "cli-developer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/cli-developer/SKILL.md",
+      "skillFolderHash": "7023cd84ff40d187979c13e4c4090a88c6a252a1",
+      "installedAt": "2026-09-10T09:57:52.149Z",
+      "updatedAt": "2026-09-10T09:57:52.149Z"
+    },
+    "cloud-architect": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/cloud-architect/SKILL.md",
+      "skillFolderHash": "f3499c2ac3e116ac92c0e4a407ef56ce94175ac0",
+      "installedAt": "2026-09-10T09:57:52.153Z",
+      "updatedAt": "2026-09-10T09:57:52.153Z"
+    },
+    "code-documenter": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/code-documenter/SKILL.md",
+      "skillFolderHash": "54699ba9cbeaeee208107f4efb5b7eb17cfae7fe",
+      "installedAt": "2026-09-10T09:57:52.156Z",
+      "updatedAt": "2026-09-10T09:57:52.156Z"
+    },
+    "code-reviewer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/code-reviewer/SKILL.md",
+      "skillFolderHash": "fbfe6c2768105206d43d4ff764f47584240ac304",
+      "installedAt": "2026-09-10T09:57:52.160Z",
+      "updatedAt": "2026-09-10T09:57:52.160Z"
+    },
+    "cpp-pro": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/cpp-pro/SKILL.md",
+      "skillFolderHash": "f2b9c2ecaaf60dc9b0e44ad12bd439213aaf6e48",
+      "installedAt": "2026-09-10T09:57:52.165Z",
+      "updatedAt": "2026-09-10T09:57:52.165Z"
+    },
+    "csharp-developer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/csharp-developer/SKILL.md",
+      "skillFolderHash": "e28b6a246e636adcac927d883bc69e72258842b1",
+      "installedAt": "2026-09-10T09:57:52.171Z",
+      "updatedAt": "2026-09-10T09:57:52.171Z"
+    },
+    "database-optimizer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/database-optimizer/SKILL.md",
+      "skillFolderHash": "6e26215a1c9eee2d7a490a0b3ac9e34b1e90cccc",
+      "installedAt": "2026-09-10T09:57:52.176Z",
+      "updatedAt": "2026-09-10T09:57:52.176Z"
+    },
+    "debugging-wizard": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/debugging-wizard/SKILL.md",
+      "skillFolderHash": "70330c92dcbb837d6f3c63b40e34fd13ea84c1f1",
+      "installedAt": "2026-09-10T09:57:52.180Z",
+      "updatedAt": "2026-09-10T09:57:52.180Z"
+    },
+    "devops-engineer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/devops-engineer/SKILL.md",
+      "skillFolderHash": "9376c07c52d24a90ee14fe9f24fa28c164f9ec91",
+      "installedAt": "2026-09-10T09:57:52.184Z",
+      "updatedAt": "2026-09-10T09:57:52.184Z"
+    },
+    "django-expert": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/django-expert/SKILL.md",
+      "skillFolderHash": "d5e96dbcbf05683050834a1ccb4925fa7466ed02",
+      "installedAt": "2026-09-10T09:57:52.188Z",
+      "updatedAt": "2026-09-10T09:57:52.188Z"
+    },
+    "django-storages-s3": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/django-storages-s3/SKILL.md",
+      "skillFolderHash": "8f40159e8b19de1984e11bb0ba135f30ffc1dda5",
+      "installedAt": "2026-09-10T09:57:52.195Z",
+      "updatedAt": "2026-09-10T09:57:52.195Z"
+    },
+    "dotnet-core-expert": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/dotnet-core-expert/SKILL.md",
+      "skillFolderHash": "c2e2721b1738992cf32112a7168c7b4c19208b0c",
+      "installedAt": "2026-09-10T09:57:52.213Z",
+      "updatedAt": "2026-09-10T09:57:52.213Z"
+    },
+    "embedded-systems": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/embedded-systems/SKILL.md",
+      "skillFolderHash": "a9dc525a5959c5a1d1db09266b4a69544073f354",
+      "installedAt": "2026-09-10T09:57:52.218Z",
+      "updatedAt": "2026-09-10T09:57:52.218Z"
+    },
+    "fastapi-expert": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/fastapi-expert/SKILL.md",
+      "skillFolderHash": "72f1ff40af271f9f7dc66b160d08b89d68fd7eac",
+      "installedAt": "2026-09-10T09:57:52.223Z",
+      "updatedAt": "2026-09-10T09:57:52.223Z"
+    },
+    "feature-forge": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/feature-forge/SKILL.md",
+      "skillFolderHash": "0530576a359761dac0f0b3f9ba0bb73ebc3144f2",
+      "installedAt": "2026-09-10T09:57:52.226Z",
+      "updatedAt": "2026-09-10T09:57:52.226Z"
+    },
+    "fine-tuning-expert": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/fine-tuning-expert/SKILL.md",
+      "skillFolderHash": "0521d9d9286f98ab68366579a00b154f6654679b",
+      "installedAt": "2026-09-10T09:57:52.230Z",
+      "updatedAt": "2026-09-10T09:57:52.230Z"
+    },
+    "flutter-expert": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/flutter-expert/SKILL.md",
+      "skillFolderHash": "d17200d4cb3c3e9dcd7e00728fd17a39cb5ab994",
+      "installedAt": "2026-09-10T09:57:52.234Z",
+      "updatedAt": "2026-09-10T09:57:52.234Z"
+    },
+    "fullstack-guardian": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/fullstack-guardian/SKILL.md",
+      "skillFolderHash": "b6509ef7ac35f568507b4073ac20ad210b823051",
+      "installedAt": "2026-09-10T09:57:52.237Z",
+      "updatedAt": "2026-09-10T09:57:52.237Z"
+    },
+    "game-developer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/game-developer/SKILL.md",
+      "skillFolderHash": "9b92ecfa30c1366af69ffd1241d2356c1606c161",
+      "installedAt": "2026-09-10T09:57:52.241Z",
+      "updatedAt": "2026-09-10T09:57:52.241Z"
+    },
+    "golang-pro": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/golang-pro/SKILL.md",
+      "skillFolderHash": "e347d9842958ce46d5f0644ef6009304d648a964",
+      "installedAt": "2026-09-10T09:57:52.246Z",
+      "updatedAt": "2026-09-10T09:57:52.246Z"
+    },
+    "graphql-architect": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/graphql-architect/SKILL.md",
+      "skillFolderHash": "0c40fc3837a8104d2e3c1709a74bf1b82ef15062",
+      "installedAt": "2026-09-10T09:57:52.251Z",
+      "updatedAt": "2026-09-10T09:57:52.251Z"
+    },
+    "java-architect": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/java-architect/SKILL.md",
+      "skillFolderHash": "e5db4f7b2093235feb263dd3a7ec47b5ad8bb828",
+      "installedAt": "2026-09-10T09:57:52.254Z",
+      "updatedAt": "2026-09-10T09:57:52.254Z"
+    },
+    "javascript-pro": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/javascript-pro/SKILL.md",
+      "skillFolderHash": "de124b6020296fd3a3d33b0ba5545c4fce823907",
+      "installedAt": "2026-09-10T09:57:52.256Z",
+      "updatedAt": "2026-09-10T09:57:52.256Z"
+    },
+    "kotlin-specialist": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/kotlin-specialist/SKILL.md",
+      "skillFolderHash": "15c3c179587898cbb41e85ec2c525c56b619fcf8",
+      "installedAt": "2026-09-10T09:57:52.258Z",
+      "updatedAt": "2026-09-10T09:57:52.258Z"
+    },
+    "kubernetes-specialist": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/kubernetes-specialist/SKILL.md",
+      "skillFolderHash": "1fd237eca6b32f079d575ee6e441669c77f0f226",
+      "installedAt": "2026-09-10T09:57:52.259Z",
+      "updatedAt": "2026-09-10T09:57:52.259Z"
+    },
+    "laravel-specialist": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/laravel-specialist/SKILL.md",
+      "skillFolderHash": "e1fcd5a9d463e2bf4b5496bdccc6420a0a9a9127",
+      "installedAt": "2026-09-10T09:57:52.261Z",
+      "updatedAt": "2026-09-10T09:57:52.261Z"
+    },
+    "legacy-modernizer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/legacy-modernizer/SKILL.md",
+      "skillFolderHash": "154e7a26a163265098e76f14818c1746f3514a7f",
+      "installedAt": "2026-09-10T09:57:52.262Z",
+      "updatedAt": "2026-09-10T09:57:52.262Z"
+    },
+    "mcp-developer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/mcp-developer/SKILL.md",
+      "skillFolderHash": "4ce77beee20f661f48bd0c60845c3c80a49785a5",
+      "installedAt": "2026-09-10T09:57:52.264Z",
+      "updatedAt": "2026-09-10T09:57:52.264Z"
+    },
+    "microservices-architect": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/microservices-architect/SKILL.md",
+      "skillFolderHash": "818c0fd1f257d8009ab537bf2de772a55ab159c1",
+      "installedAt": "2026-09-10T09:57:52.266Z",
+      "updatedAt": "2026-09-10T09:57:52.266Z"
+    },
+    "ml-pipeline": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/ml-pipeline/SKILL.md",
+      "skillFolderHash": "604553880441414ec2c04d44ce9eab481d1aebc5",
+      "installedAt": "2026-09-10T09:57:52.269Z",
+      "updatedAt": "2026-09-10T09:57:52.269Z"
+    },
+    "monitoring-expert": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/monitoring-expert/SKILL.md",
+      "skillFolderHash": "21a0874b47c79501974adcda6ada66adbc39ce7b",
+      "installedAt": "2026-09-10T09:57:52.271Z",
+      "updatedAt": "2026-09-10T09:57:52.271Z"
+    },
+    "nestjs-expert": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/nestjs-expert/SKILL.md",
+      "skillFolderHash": "d8fcf03ebf3e72094981ed7f49f0be74da8b87f3",
+      "installedAt": "2026-09-10T09:57:52.273Z",
+      "updatedAt": "2026-09-10T09:57:52.273Z"
+    },
+    "nextjs-developer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/nextjs-developer/SKILL.md",
+      "skillFolderHash": "889690ac2382e373696bbc1b07c41ea9e95da937",
+      "installedAt": "2026-09-10T09:57:52.275Z",
+      "updatedAt": "2026-09-10T09:57:52.275Z"
+    },
+    "pandas-pro": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/pandas-pro/SKILL.md",
+      "skillFolderHash": "9bfc19cf4e74fb87f93110944bbe9e9eae7555b5",
+      "installedAt": "2026-09-10T09:57:52.277Z",
+      "updatedAt": "2026-09-10T09:57:52.277Z"
+    },
+    "php-pro": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/php-pro/SKILL.md",
+      "skillFolderHash": "52b7f7be21614d177cf38c99fdd9a905ba48e9c9",
+      "installedAt": "2026-09-10T09:57:52.280Z",
+      "updatedAt": "2026-09-10T09:57:52.280Z"
+    },
+    "playwright-expert": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/playwright-expert/SKILL.md",
+      "skillFolderHash": "7999ef218345bd932e8626716dda89a2b6812fdd",
+      "installedAt": "2026-09-10T09:57:52.282Z",
+      "updatedAt": "2026-09-10T09:57:52.282Z"
+    },
+    "postgres-pro": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/postgres-pro/SKILL.md",
+      "skillFolderHash": "5e1a56c4e2973fb9827f57a34fbbbc39b497e7c7",
+      "installedAt": "2026-09-10T09:57:52.284Z",
+      "updatedAt": "2026-09-10T09:57:52.284Z"
+    },
+    "prompt-engineer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/prompt-engineer/SKILL.md",
+      "skillFolderHash": "3c306a45231f1ce2891b1a89132b558a31cd744d",
+      "installedAt": "2026-09-10T09:57:52.286Z",
+      "updatedAt": "2026-09-10T09:57:52.286Z"
+    },
+    "python-pro": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/python-pro/SKILL.md",
+      "skillFolderHash": "1526e64f0ad0575daaf227d5d8341dfde9124f5b",
+      "installedAt": "2026-09-10T09:57:52.288Z",
+      "updatedAt": "2026-09-10T09:57:52.288Z"
+    },
+    "rag-architect": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/rag-architect/SKILL.md",
+      "skillFolderHash": "336a6d3adccf29a75b363eb336799f1140c6c32f",
+      "installedAt": "2026-09-10T09:57:52.290Z",
+      "updatedAt": "2026-09-10T09:57:52.290Z"
+    },
+    "rails-expert": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/rails-expert/SKILL.md",
+      "skillFolderHash": "21a91a2bab5f8eac63f4d38c6d70aba61148a5fb",
+      "installedAt": "2026-09-10T09:57:52.292Z",
+      "updatedAt": "2026-09-10T09:57:52.292Z"
+    },
+    "react-expert": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/react-expert/SKILL.md",
+      "skillFolderHash": "fba2d0765b9f6351393f6607df6002e1a2a12529",
+      "installedAt": "2026-09-10T09:57:52.294Z",
+      "updatedAt": "2026-09-10T09:57:52.294Z"
+    },
+    "react-native-expert": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/react-native-expert/SKILL.md",
+      "skillFolderHash": "af4687bede6acd701a237eee94d8bf7491397247",
+      "installedAt": "2026-09-10T09:57:52.296Z",
+      "updatedAt": "2026-09-10T09:57:52.296Z"
+    },
+    "rust-engineer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/rust-engineer/SKILL.md",
+      "skillFolderHash": "f6de9e728f9380069c85d3ab49596a009bcaf959",
+      "installedAt": "2026-09-10T09:57:52.298Z",
+      "updatedAt": "2026-09-10T09:57:52.298Z"
+    },
+    "salesforce-developer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/salesforce-developer/SKILL.md",
+      "skillFolderHash": "733b10c7e0dc50bf6f865516c5e952bb12ba0fdf",
+      "installedAt": "2026-09-10T09:57:52.301Z",
+      "updatedAt": "2026-09-10T09:57:52.301Z"
+    },
+    "secure-code-guardian": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/secure-code-guardian/SKILL.md",
+      "skillFolderHash": "f8b0294cd0bdd186d142b45211d9d8c7f893dac6",
+      "installedAt": "2026-09-10T09:57:52.304Z",
+      "updatedAt": "2026-09-10T09:57:52.304Z"
+    },
+    "security-reviewer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/security-reviewer/SKILL.md",
+      "skillFolderHash": "4785ccbfb6ee8c2fdc9af3a2746c58b09da5d6a7",
+      "installedAt": "2026-09-10T09:57:52.309Z",
+      "updatedAt": "2026-09-10T09:57:52.309Z"
+    },
+    "shopify-expert": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/shopify-expert/SKILL.md",
+      "skillFolderHash": "4fad8ec9c2a95eba2a0b05c51cee5559fdf38ac0",
+      "installedAt": "2026-09-10T09:57:52.315Z",
+      "updatedAt": "2026-09-10T09:57:52.315Z"
+    },
+    "spark-engineer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/spark-engineer/SKILL.md",
+      "skillFolderHash": "c3609b8383f9365262ebd29fae298a7bb34d6b86",
+      "installedAt": "2026-09-10T09:57:52.320Z",
+      "updatedAt": "2026-09-10T09:57:52.320Z"
+    },
+    "spec-miner": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/spec-miner/SKILL.md",
+      "skillFolderHash": "47c0839a70c3fc45151e7469d57e598929665184",
+      "installedAt": "2026-09-10T09:57:52.327Z",
+      "updatedAt": "2026-09-10T09:57:52.327Z"
+    },
+    "spring-boot-engineer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/spring-boot-engineer/SKILL.md",
+      "skillFolderHash": "69258ea2c7ba5aaaf8cadc8599ea040500e15503",
+      "installedAt": "2026-09-10T09:57:52.333Z",
+      "updatedAt": "2026-09-10T09:57:52.333Z"
+    },
+    "sql-pro": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/sql-pro/SKILL.md",
+      "skillFolderHash": "38e06a35f874e99dd107eac9f9608d0b3bb94c0e",
+      "installedAt": "2026-09-10T09:57:52.340Z",
+      "updatedAt": "2026-09-10T09:57:52.340Z"
+    },
+    "sre-engineer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/sre-engineer/SKILL.md",
+      "skillFolderHash": "2860f33f2a10068ade7093eade759dbf29cca1f4",
+      "installedAt": "2026-09-10T09:57:52.345Z",
+      "updatedAt": "2026-09-10T09:57:52.345Z"
+    },
+    "swift-expert": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/swift-expert/SKILL.md",
+      "skillFolderHash": "ead1cd99e9bc18c8faed03d67cdc0a10d5aa4b4a",
+      "installedAt": "2026-09-10T09:57:52.351Z",
+      "updatedAt": "2026-09-10T09:57:52.351Z"
+    },
+    "terraform-engineer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/terraform-engineer/SKILL.md",
+      "skillFolderHash": "b64f09a08220f14f48d0cda381c952666cb0e3fe",
+      "installedAt": "2026-09-10T09:57:52.357Z",
+      "updatedAt": "2026-09-10T09:57:52.357Z"
+    },
+    "test-master": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/test-master/SKILL.md",
+      "skillFolderHash": "28db277fe02c3968d72769456f7a9960807816a9",
+      "installedAt": "2026-09-10T09:57:52.362Z",
+      "updatedAt": "2026-09-10T09:57:52.362Z"
+    },
+    "the-fool": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/the-fool/SKILL.md",
+      "skillFolderHash": "d5a09bd0ab58afd73b2d6c3ce2cfac306b7245b9",
+      "installedAt": "2026-09-10T09:57:52.365Z",
+      "updatedAt": "2026-09-10T09:57:52.365Z"
+    },
+    "typescript-pro": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/typescript-pro/SKILL.md",
+      "skillFolderHash": "c78e86534745c1a1c6c0d3be87213bab2cce9800",
+      "installedAt": "2026-09-10T09:57:52.369Z",
+      "updatedAt": "2026-09-10T09:57:52.369Z"
+    },
+    "vue-expert": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/vue-expert/SKILL.md",
+      "skillFolderHash": "e35dcf8454d0c0662197418df3f3ceaada6c1f0f",
+      "installedAt": "2026-09-10T09:57:52.381Z",
+      "updatedAt": "2026-09-10T09:57:52.381Z"
+    },
+    "vue-expert-js": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/vue-expert-js/SKILL.md",
+      "skillFolderHash": "02b596a33263cbd214e666cbe1a8fef0a52ee0bc",
+      "installedAt": "2026-09-10T09:57:52.387Z",
+      "updatedAt": "2026-09-10T09:57:52.387Z"
+    },
+    "websocket-engineer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/websocket-engineer/SKILL.md",
+      "skillFolderHash": "b2311f1782f38a40debf03b09e81826c5f1b1144",
+      "installedAt": "2026-09-10T09:57:52.396Z",
+      "updatedAt": "2026-09-10T09:57:52.396Z"
+    },
+    "wordpress-pro": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
+      "skillPath": "skills/wordpress-pro/SKILL.md",
+      "skillFolderHash": "215a744b735b25f44d78a1f9b9a61c56bd9c2172",
+      "installedAt": "2026-09-10T09:57:52.406Z",
+      "updatedAt": "2026-09-10T09:57:52.406Z"
+    },
+    "vercel-composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/composition-patterns/SKILL.md",
+      "skillFolderHash": "bf90d0a4b83ea054653350f9c67f6de235d3a368",
+      "installedAt": "2026-09-10T10:03:03.020Z",
+      "updatedAt": "2026-09-10T10:03:03.020Z"
+    },
+    "gsap-performance": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/greensock/gsap-skills.git",
+      "skillPath": "skills/gsap-performance/SKILL.md",
+      "skillFolderHash": "34dec2f051872f8d02df06de97450e448bac9c5e",
+      "installedAt": "2026-09-10T10:03:03.273Z",
+      "updatedAt": "2026-09-10T10:03:03.273Z"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "skillFolderHash": "d79e2a5bb4df4a386c2adcdd9ab8709bba28c3f6",
+      "pluginName": "example-skills",
+      "installedAt": "2026-09-10T10:03:04.997Z",
+      "updatedAt": "2026-09-10T10:03:04.997Z"
+    },
+    "threejs-postprocessing": {
+      "source": "cloudai-x/threejs-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudai-x/threejs-skills.git",
+      "skillPath": "skills/threejs-postprocessing/SKILL.md",
+      "skillFolderHash": "699f67f0c2f4d50cd493b03c895e0074f7b47a7f",
+      "installedAt": "2026-09-10T10:03:18.501Z",
+      "updatedAt": "2026-09-10T10:03:18.501Z"
+    },
+    "performance-optimization": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/performance-optimization/SKILL.md",
+      "skillFolderHash": "d7cc0bec423819ebe153ec70177caaec4bad3fea",
+      "installedAt": "2026-09-10T10:03:34.634Z",
+      "updatedAt": "2026-09-10T10:03:34.634Z"
+    },
+    "fixing-motion-performance": {
+      "source": "ibelick/ui-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/ibelick/ui-skills.git",
+      "skillPath": "skills/fixing-motion-performance/SKILL.md",
+      "skillFolderHash": "76e5757bd2eb8ff38ff667eca9b665cbd707a386",
+      "installedAt": "2026-09-10T10:03:34.907Z",
+      "updatedAt": "2026-09-10T10:03:34.907Z"
+    },
+    "canvas-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/canvas-design/SKILL.md",
+      "skillFolderHash": "95095faaee2ea943e85a5d1d562fde06841e835e",
+      "pluginName": "example-skills",
+      "installedAt": "2026-09-10T10:03:36.479Z",
+      "updatedAt": "2026-09-10T10:03:36.479Z"
+    },
+    "nextjs-app-router-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/frontend-mobile-development/skills/nextjs-app-router-patterns/SKILL.md",
+      "skillFolderHash": "a4c1ad78df67850628ebc3d6b7210f48b846942c",
+      "installedAt": "2026-09-10T10:03:53.024Z",
+      "updatedAt": "2026-09-10T10:03:53.024Z"
+    },
+    "design-taste-frontend": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/taste-skill/SKILL.md",
+      "skillFolderHash": "a6d128e53b4ec0238baee751dde33bf707adb5ec",
+      "installedAt": "2026-09-10T10:37:31.118Z",
+      "updatedAt": "2026-09-10T10:37:31.118Z"
+    },
+    "commit-archaeologist": {
+      "source": "Shubhamsaboo/awesome-llm-apps",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Shubhamsaboo/awesome-llm-apps.git",
+      "ref": "main",
+      "skillPath": "agent_skills/commit-archaeologist/SKILL.md",
+      "skillFolderHash": "c72abb053eba391f0c532f1518ed63fc8f667bef",
+      "installedAt": "2026-09-10T10:45:35.435Z",
+      "updatedAt": "2026-09-10T10:45:35.435Z"
+    }
+  },
+  "dismissed": {}
+}
